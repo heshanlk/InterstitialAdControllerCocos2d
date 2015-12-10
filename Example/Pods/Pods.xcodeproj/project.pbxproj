@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		238A5F2A4E69EDFB207365DFB88ADA14 /* Pods-InterstitialAdControllerCocos2d_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 85FF8264BC1A6E58F79C8764509D8CDF /* Pods-InterstitialAdControllerCocos2d_Tests-dummy.m */; };
 		3592CC3763B0B1B3EF1F6DBC0F8A8AD0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		56B934741C19B8E800DF0B77 /* InterstitialAdControllerCocos2d.h in Headers */ = {isa = PBXBuildFile; fileRef = 56B934721C19B8E800DF0B77 /* InterstitialAdControllerCocos2d.h */; };
+		56B934751C19B8E800DF0B77 /* InterstitialAdControllerCocos2d.m in Sources */ = {isa = PBXBuildFile; fileRef = 56B934731C19B8E800DF0B77 /* InterstitialAdControllerCocos2d.m */; };
 		7D391FEEB074F2E3A6A1AB4AECA8C28E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
 		8DAC7E45D3B047D551FCDA0511BEC9BC /* Pods-InterstitialAdControllerCocos2d_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E74588750BC99AD961222A8C34BE894 /* Pods-InterstitialAdControllerCocos2d_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B9D336831D27F951D770083A4AAC575A /* InterstitialAdControllerCocos2d.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EE8F18894FFC170C183AFADAA25E95E3 /* InterstitialAdControllerCocos2d.bundle */; };
@@ -41,6 +43,8 @@
 		2E74588750BC99AD961222A8C34BE894 /* Pods-InterstitialAdControllerCocos2d_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-InterstitialAdControllerCocos2d_Tests-umbrella.h"; sourceTree = "<group>"; };
 		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		4FC637DF727C49D19766AB66DFD90D90 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56B934721C19B8E800DF0B77 /* InterstitialAdControllerCocos2d.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InterstitialAdControllerCocos2d.h; sourceTree = "<group>"; };
+		56B934731C19B8E800DF0B77 /* InterstitialAdControllerCocos2d.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InterstitialAdControllerCocos2d.m; sourceTree = "<group>"; };
 		5CD8D8E50635371F8E0915A2779EF684 /* InterstitialAdControllerCocos2d.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = InterstitialAdControllerCocos2d.modulemap; sourceTree = "<group>"; };
 		7A9CFAEF17EAED3635EFCA6C52E47462 /* Pods-InterstitialAdControllerCocos2d_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-InterstitialAdControllerCocos2d_Tests.modulemap"; sourceTree = "<group>"; };
 		7EBB748E8192EEC7B87AA64D58E95E95 /* Pods-InterstitialAdControllerCocos2d_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-InterstitialAdControllerCocos2d_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -87,6 +91,8 @@
 		0FF3A566EA325A7715C705142443AC27 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				56B934721C19B8E800DF0B77 /* InterstitialAdControllerCocos2d.h */,
+				56B934731C19B8E800DF0B77 /* InterstitialAdControllerCocos2d.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -210,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF501C38BE6D8CC0CD7D631A17864BC2 /* InterstitialAdControllerCocos2d-umbrella.h in Headers */,
+				56B934741C19B8E800DF0B77 /* InterstitialAdControllerCocos2d.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,6 +328,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56B934751C19B8E800DF0B77 /* InterstitialAdControllerCocos2d.m in Sources */,
 				D13D0A57C0FAC5E7FBE1458178AD6149 /* InterstitialAdControllerCocos2d-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
