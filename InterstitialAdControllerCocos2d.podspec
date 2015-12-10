@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "InterstitialAdControllerCocos2d"
-  s.version          = "0.0.1"
+  s.version          = "0.0.2"
   s.summary          = "iAD and AdMob interstitial ads for Cocos2d."
 
 # This description is used to generate tags and improve search results.
@@ -16,8 +16,7 @@ Pod::Spec.new do |s|
 #   * Try to keep it short, snappy and to the point.
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!  
-  s.description      = <<-DESC
-                       DESC
+  s.description      = "iAD and AdMob interstitial ads for Cocos2d iOS Games."
 
   s.homepage         = "https://github.com/heshanlk/InterstitialAdControllerCocos2d"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
@@ -35,6 +34,7 @@ Pod::Spec.new do |s|
   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  s.frameworks = 'iAd'
+  s.weak_frameworks = 'AdSupport'
+  s.frameworks = 'iAd', 'AudioToolbox', 'MessageUI', 'SystemConfiguration', 'CoreGraphics', 'StoreKit'
   s.dependency 'Google-Mobile-Ads-SDK', '~> 7.0'
 end
