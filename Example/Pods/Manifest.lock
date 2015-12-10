@@ -1,0 +1,14 @@
+PODS:
+  - InterstitialAdControllerCocos2d (0.1.0)
+
+DEPENDENCIES:
+  - InterstitialAdControllerCocos2d (from `../`)
+
+EXTERNAL SOURCES:
+  InterstitialAdControllerCocos2d:
+    :path: ../
+
+SPEC CHECKSUMS:
+  InterstitialAdControllerCocos2d: 6cecb7859ac2bab8630f945aac394b066769d59a
+
+COCOAPODS: 0.39.0

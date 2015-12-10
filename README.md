@@ -7,7 +7,15 @@
 
 ## Usage
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+```objc
+#import "InterstitialAdControllerCocos2d.h"
+```
+
+```objc
+[[InterstitialAdControllerCocos2d sharedInstance] showInterstitial];
+```
+
+This will first try to load iAD if failed then try Google AdMob ads.
 
 ## Requirements
 

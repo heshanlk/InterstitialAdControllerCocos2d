@@ -1,0 +1,25 @@
+{
+  "name": "InterstitialAdControllerCocos2d",
+  "version": "0.1.0",
+  "summary": "A short description of InterstitialAdControllerCocos2d.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/InterstitialAdControllerCocos2d",
+  "license": "MIT",
+  "authors": {
+    "Heshan Wanigasooriya": "heshan@heidisoft.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/InterstitialAdControllerCocos2d.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "InterstitialAdControllerCocos2d": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}

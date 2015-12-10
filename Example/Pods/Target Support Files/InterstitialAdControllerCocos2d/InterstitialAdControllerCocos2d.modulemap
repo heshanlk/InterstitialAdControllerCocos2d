@@ -1,0 +1,6 @@
+framework module InterstitialAdControllerCocos2d {
+  umbrella header "InterstitialAdControllerCocos2d-umbrella.h"
+
+  export *
+  module * { export * }
+}
